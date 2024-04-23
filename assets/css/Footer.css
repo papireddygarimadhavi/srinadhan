@@ -1,0 +1,311 @@
+
+ /* ////........Footer start.......//// */
+ .footer{
+  width: 100%;
+  height: 400px;
+  background-image:url("/assets/uploads/image/footerImage.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+
+  
+ }
+ .footerbackground{
+  background-color: #08148f;
+  height: 400px;
+  opacity: 0.8;
+  display: flex;
+ }
+
+.about{
+width: 400px;
+color: white;
+padding: 20px;
+margin-top: 50px;
+margin-bottom:  30px;
+margin-left: 70px;
+font-size: 15px;
+word-spacing: 5px;
+
+}
+.projects{
+width: 400px;
+line-height: 20px;
+color: white;
+margin-top: 50px;
+margin-bottom:  40px;
+
+}
+.projects>h4{
+margin-left: 110px;
+}
+.contacts{
+width: 400px;
+color: white;
+padding: 20px;
+text-align: justify;
+
+}
+.headings{
+color: rgb(0, 179, 255);
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+.contact>h4{
+margin-top: 70px;
+margin-left:20px;
+padding-top: 20px;
+}
+.menu>li{
+list-style: none;
+line-height: 30px;
+margin-left: 50px;
+
+}
+.Cmenu{
+
+margin-bottom:  100px;
+
+}
+.Cmenu>li{
+list-style: none;
+line-height: 30px;
+
+
+}
+.Cmenu>li>a{
+color: white;
+display: block;
+margin-left: 20px;
+text-decoration: none;
+}
+
+.Cmenu>.addr{
+  width: 250px;
+}
+.menu>li>a{
+color: white;
+display: block;
+margin-left: 20px;
+}
+.address{
+color: white;
+margin-left: 70px;
+}
+footer>.copyright>p{
+background-color: #051943;
+color: white;
+margin-bottom: 10px;
+margin-left: 100px;
+
+
+}
+.copyright{
+  display: flex;
+  background-color: #051943;
+  height: 50px;
+}
+
+
+.copyright>.footerlogo>a>img{
+width: 20px;
+height: 20px;
+padding: 5px;
+background-color: white;
+
+border-radius: 15px;
+margin-left: 10PX;
+
+}
+.copyright>.footerlogo{
+  margin-left: 500px;
+
+  margin-top: 14px;
+}
+
+
+/* ------------------media  query------------------ */
+
+
+/* LAPTOP VIEW */
+
+/* header  start*/
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+
+}
+
+
+
+/* footer  starts */
+.about>p{
+  height: 300px;
+  width: 300px;
+  text-align: justify;
+}
+
+.projects{
+  margin-left: -150px;
+  margin-top: 70px;
+}
+.projects>h4{
+  margin-left: 110px;
+  
+}
+
+.contact{
+  margin-left: -100px;
+}
+
+.copyright>.footerlogo{
+  margin-left: 350px;
+}
+
+ 
+
+
+/* footer ends */
+
+/* TAB VIEW */
+
+@media screen and (min-width:427px) and (max-width:768px) {
+ 
+ 
+
+/* footer */
+.about{
+  margin-left: -10px;
+}
+.about>p{
+  width: 250px;
+  text-align: justify;
+  margin-left: 10px;
+
+}
+.about>h4{
+  width: 100px;
+  margin-left: 10px;
+}
+.projects{
+  margin-top: 50px;
+  margin-left: -200px;
+  width: 400px;
+  
+}
+.projects>h4{
+  margin-left:  80px;
+  margin-top: 40px;
+  width: 50px;
+}
+.projects>.menu{
+  margin-left: -30px;
+}
+.contact>.Cmenu{
+  margin-left: -60px;
+}
+.contact>h4{
+  width: 200px;
+  margin-left: -10px;
+}
+
+.copyright>p{
+  width: 500px;
+  margin-right: -400px;
+}
+
+.copyright>.footerlogo{
+  display: flex;
+ margin-right: 100px;
+}
+
+.Cmenu>.addr{
+  width: 190px;
+  margin-top: -15px;
+ }
+  
+}
+/* footer ends  */
+
+
+
+/* MOBILE VIEW */
+@media screen and (max-width:426px) {
+
+  .menu-items{
+    margin-left: -15px;
+  }
+
+  
+
+
+
+  .footer{
+    width:420px;
+    height: 900px;
+   }
+
+  .footerbackground{
+    height: 900px;
+    width: 420px;
+
+    display: block;
+   }
+   .about>p{
+    width: 350px;
+    margin-left: 25px;
+    text-align: justify;
+    
+   }
+   .about>h4{
+    margin-left: 150px;
+   }
+   .about{
+    width: 300px;
+    margin-left:-10px;
+   }
+  
+   .projects>h4{
+     margin-left: 300px;
+     margin-top: -200px;
+
+
+
+   }
+   .projects>.menu{
+    width: 300px;
+    margin-left: 180px;
+    
+    
+
+   }
+   .contact>h4{
+    margin-left: 200px;
+    margin-top: -30px;
+
+    
+   }
+   .contact>.Cmenu{
+    margin-left: 180px;
+   }
+   .Cmenu>.addr{
+    width: 190px;
+   }
+
+   .copyright{
+    display: block;
+    background-color: #051943;
+    height: 100px;
+    margin-top: -17px;
+    padding-top: 10px;
+  }
+   .copyright>.footerlogo{
+    margin-left: 150px;
+   }
+   
+
+
+}

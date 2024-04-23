@@ -1,0 +1,1099 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  
+   
+  body{
+    
+    background: rgb(255, 255, 255)
+  }
+  
+  .header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: -100px;
+    
+  }
+  
+  .navbar{
+    margin-top: 0px;
+    width:100%;
+    height: 110px;
+    overflow:auto;
+    border: 1px solid rgb(228, 226, 226);
+    background-color: white;
+    
+  
+  }
+  
+  .navbar-menu{
+    list-style: none;
+     padding-top: 20px;
+     padding-right: 50px;
+    justify-content: space-around;
+  }
+  
+  .menu-items{
+    float: right;
+  }
+  
+  .menu-items a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    
+  
+  }
+  .logo img{
+    position: absolute;
+    display: inline ;
+    width: 100px;
+    height: 90px;
+    margin-left: 100px;
+  
+  }
+  
+  /* HEADER ENDS*/
+  
+  /* ////........Footer start.......//// */
+  .footer{
+    width: 100%;
+    height: 400px;
+    background-image:url("/assets/uploads/image/footerImage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+  
+    
+   }
+   .footerbackground{
+    background-color: #08148f;
+    height: 400px;
+    opacity: 0.8;
+    display: flex;
+   }
+  
+  .about{
+  width: 400px;
+  color: white;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom:  30px;
+  margin-left: 70px;
+  font-size: 15px;
+  word-spacing: 5px;
+  text-align: justify;
+  
+  }
+  .projects{
+  width: 400px;
+  line-height: 20px;
+  color: white;
+  margin-top: 70px;
+  margin-bottom:  40px;
+  margin-left: 70px;
+  
+  }
+  .projects>h4{
+  margin-left: 70px;
+  }
+  .contacts{
+  width: 400px;
+  color: white;
+  padding: 20px;
+  text-align: justify;
+  
+  }
+  .headings{
+  color: rgb(0, 179, 255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  
+  .contact>h4{
+  margin-top: 70px;
+  margin-left:20px;
+  padding-top: 20px;
+  }
+  .menu>li{
+  list-style: none;
+  line-height: 30px;
+  margin-left: 50px;
+  
+  }
+  .Cmenu{
+  
+  margin-bottom:  100px;
+  
+  }
+  .Cmenu>li{
+  list-style: none;
+  line-height: 30px;
+  
+  
+  }
+  .Cmenu>li>a{
+  color: white;
+  display: block;
+  margin-left: 20px;
+  text-decoration: none;
+  }
+  
+  .Cmenu>.addr{
+    width: 250px;
+  }
+  .menu>li>a{
+  color: white;
+  display: block;
+  margin-left: 20px;
+  }
+  .address{
+  color: white;
+  margin-left: 70px;
+  }
+  footer>.copyright>p{
+  background-color: #051943;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-top: 15px;
+  
+  
+  }
+  .copyright{
+    display: flex;
+    background-color: #051943;
+    height: 50px;
+  }
+  
+  
+  .copyright>.footerlogo>a>img{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  
+  border-radius: 15px;
+  margin-left: 10PX;
+  
+  }
+  .copyright>.footerlogo{
+    margin-left: 500px;
+  
+    margin-top: 14px;
+  }
+  
+  /* //////////FOOTER ENDS////////////// */
+  
+  
+/* about v */
+.vimg{
+
+background-image: url(/assets/uploads/image/about\ image.jpg);
+height: 140px;
+}
+.vimg>h1{
+height: 140px;
+ text-align: center; 
+ padding-top: 50px; 
+ background-repeat:no-repeat; 
+background-color: blue;
+opacity: 0.6;
+color:rgb(255, 255, 255);
+ margin-top: 100px; 
+
+
+}
+
+.vmiddle>p{
+    width: 50%;
+    padding-left: 300px;
+    padding-top: 10px;
+    text-align: justify;
+
+}
+.vmiddle>h4{
+    padding-left: 300px;
+    padding-top: 100px;
+    color: rgb(29, 87, 90);
+    
+
+}
+.vmiddle>h1{
+    padding-left: 300px;
+    font-size:30px;
+    padding-top: 20px;
+    color: rgb(1, 1, 70);
+}
+ 
+    
+
+.vcontact{
+    padding-left: 400px;
+    padding-top: 30px;
+
+}
+.vbutton1{
+    height: 3oopx;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    border-style: none;
+    width: 180px;
+    height: 50px;
+    font-family: sans-serif;
+    
+}
+.vpic>img{
+    position: absolute;
+    left: 850px;
+    bottom:-200px;
+    height: 550px;
+    border-radius: 30px;
+    width: 300px;
+
+}
+.vhey{
+    background-image: url(/assets/uploads/image/construction-site-silhouettes.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+    width: 600px;
+    
+
+    
+}
+.vbo{
+    padding-top: 70px;
+    background-color: rgb(12, 12, 67);
+    width: 700px;
+    height: 700px;
+    translate: 550px;
+    
+
+
+
+}
+.vi{
+    padding-top: 100px;
+}
+.vbo>p{
+    width: 600px;
+   
+    color: white;
+   
+    margin-left: 50px;
+    margin-top: 70px;
+    line-height: 25px;
+    text-align: justify;
+}
+.vbo>h1{
+    
+    font-size: 30px;
+    color: white;
+    padding-top: 100px;
+    width: 70%;
+    margin-left: 100px;
+
+}
+.vborder{
+    border: 150px solid white;
+    /* padding-left: 220PX; */
+    text-align: center;
+}
+.vborder>h3{
+    /* padding-left: 270px; */
+    color: rgb(43, 149, 133);
+}
+ .vlogo>img{
+    
+    width: 150px;
+     
+    
+
+    
+}
+.vimgb>img{
+
+    width: 150px;
+    
+    
+    
+    
+    
+}
+.vimgc>img{
+    
+    width: 200px;
+   
+    /* height: 130px; */
+    
+
+    
+}
+.vallimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
+
+}
+
+.vlogo{
+    background-color: #d9e3e0;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+
+    
+    
+    
+}
+.vlogo:hover{
+    background-color: white;
+}
+
+.vimgb{
+    
+    background-color: rgb(217, 227, 224);
+
+    margin-left: 50px;
+    /* border-radius: 10px; */
+}
+.vimgb:hover{
+    background-color: white;
+}
+.vimgc{
+    
+    background-color: rgb(217,227,224);
+    margin-left:50px;
+    /* border-radius: 10px;   */
+    
+}
+.vimgc:hover{
+    background-color: white;
+}
+.vh2>h2{
+    padding-left:400px ;
+}
+
+/*          ---------------------          */
+
+
+
+
+ 
+
+.vtext2{
+    height: 700px;
+    background-image: url(/assets/uploads/image/pexels-sevenstorm-juhaszimrus-439416.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    
+    
+
+}
+.vtext4{
+    background-color:rgba(31, 50, 120, 0.926);
+    /* opacity: 0.7; */
+    height: 700px;
+
+
+}
+.vtext4>h3{
+    text-align: center;
+    color: #ffff;
+    padding-top: 100px;
+    font-size: 50px;
+}
+.vtext4>h1{
+    text-align: center;
+    color: #ffff;
+    margin-top: 50px;
+}
+.vtext1>p{
+    width: 700px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.message{
+    display: flex;
+}
+
+.vimg2>h3{
+ color: skyblue;
+ text-align: center;
+ padding-top: 100px;
+ 
+}
+.vimg2>h1{
+    color: white;
+    text-align: center;
+
+}
+
+
+.vimg6{
+    display: flex;
+
+}
+.sam>img{
+  width: 300px;
+  border-radius: 100%;
+  margin-left: 200px;
+    
+
+    
+}
+.vtext1>p{
+    color: white;
+ 
+}
+.vtext2>h3{
+    color:skyblue;
+    text-align: center;
+}
+.vtext2>h1{
+    text-align: center;
+    color: white;
+}
+.vlast{
+    border: 180px white solid;
+
+}
+.vlast>h2{
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    border: 10px white solid;
+    
+}
+.vicon1>img{
+    position:relative;
+    height: 40px;
+    width: 30px;
+    top: 40px;
+    left: 200px;
+
+    
+    
+    
+}
+.vicon1>p{
+    padding-top: 50px;
+    width: 350px;
+    padding-left: 160px;
+}
+.vicon1>h2{
+    padding-top: 50px;
+    padding-left: 150px;
+    font-size: 20px;
+}
+.vicon2>img{
+    position: relative;
+    height: 40px;
+    width: 30px;
+    left: 550px;
+    top: -170px;
+
+}
+.vicon2>p{
+    padding-left: 450px;
+    margin-top: -160px;
+    width: 700px;
+}
+.vicon2>h2{
+    margin-left: 450px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.vicon3>img{
+    position: relative;
+    width: 30px;
+    height: 40px;
+    left: 790px;
+    top: -175px;
+
+
+}
+.vicon3>p{
+    padding-left:750px;
+    margin-top: -165px;
+    
+}
+.vicon3>h2{
+    padding-left: 750px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+/* laptop */
+
+@media screen   and (min-width:769px) and (max-width:1025px){
+   
+    
+    .vimg{
+        width: 1020px;
+        height: 100px;
+    }
+    .vus{
+        padding-bottom: 50px;
+    }
+    .vimg>h1{
+        height:100px ;
+        text-align: center;
+        
+    }
+    .vpic>img{
+        width: 280px;
+        height: 500px;
+        left: 650px;
+        top: 160px;
+
+    }
+    .vmiddle>h4{
+        padding-left: 200px;
+
+    }
+    .vmiddle>h1{
+        padding-left: 200px;
+        font-size: 25px;
+    }
+    .vmiddle>p{
+        width: 600px;
+        padding-left: 200px;
+        
+    }
+    .vbo{
+        width: 520px;
+        height: 600px;
+        padding-left: 30px;
+        translate: 500px;
+    }
+    .vhey{
+        width: 500px;
+        height: 600px;
+        translate: 3px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    .vbo>h1{
+        width: 400px;
+        font-size: 25px;
+        margin-left: 50px;
+        padding-top: 10px;
+
+    }
+    .vbo>p{
+        width: 390px;
+
+    }
+    .vtext1>p{
+        width: 600px;
+        margin-left: 130px;
+       
+        
+    }
+    .sam>img{
+        width: 150px;
+        height: 120px;
+        margin-left: 20px;
+        
+    }
+    .vlast{
+        position: relative;
+        right: 230px;
+    }
+    .vicon3>p{
+        width: 1000px;
+
+
+    }
+    .vicon3>h2{
+        width: 1000px;
+        padding-top: 40px;
+    }
+    .vh2{
+        padding-left: 50px;
+        width: 900px;
+    }
+    .vcontact{
+        padding-left: 260px;
+    }
+}
+
+
+/* tab */
+
+@media screen  and (min-width:426px) and (max-width:769px){
+
+
+     
+/* footer */
+
+.footer{
+    height: 500px;
+  }
+  .footerbackground{
+    height: 450px;
+  }
+  
+  .about{
+    margin-left: -10px;
+  }
+  .about>p{
+    width: 250px;
+    text-align: justify;
+    margin-left: 10px;
+  
+  }
+  .about>h4{
+    width: 100px;
+    margin-left: 10px;
+  }
+  .projects{
+    margin-top: 50px;
+    margin-left: -200px;
+    width: 400px;
+    
+  }
+  .projects>h4{
+    margin-left:  140px;
+    margin-top: 40px;
+    width: 50px;
+  }
+  .projects>.menu{
+    margin-left: 70px;
+  }
+  .contact>.Cmenu{
+    margin-left: -60px;
+    
+  }
+  .contact>h4{
+    width: 200px;
+    margin-left: -50px;
+  }
+  
+  .copyright>p{
+    width: 500px;
+    margin-right: -400px;
+    
+  }
+  
+  .copyright>.footerlogo{
+    display: flex;
+   margin-right: 100px;
+  }
+  
+  .Cmenu>.addr{
+    width: 200px;
+    margin-top: -10px;
+   }
+    
+  
+  /* footer ends  */
+  
+    .vmiddle>p{
+        width: 600px ;
+        margin-left:  -280px;
+
+    }
+    .vmiddle>h1{
+        margin-left: -280px;
+        font-size: 25px;
+
+    }
+    .vmiddle>h4{
+        margin-left:-280px ;
+    }
+    .vcontact{
+        margin-left: -300px;
+    }
+    .vpic>img{
+
+        left: 470px;
+        width: 280px;
+        height: 550px;
+        bottom: -280px;
+
+    }
+    .vhey{
+        width: 400px;
+        height: 600px;
+        translate: 1px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    .vbo{
+        width: 410px;
+        height: 600px;
+        translate: 350px;
+    }
+    .vbo>p{
+        width: 300px;
+        padding-left: -10px;
+        font-size: small;
+        text-align: justify;
+        margin-top: 10%;
+
+    }
+   .vbo>h1{
+      font-size: medium;
+      margin-left: 15%;
+      margin-top:-25%;
+   }
+   .vborder>h1{
+    font-size: 25px;
+    width: 500px;
+   }
+   .vborder>h3{
+    padding-left: 10px;
+
+   }
+   .sam>img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+   }
+   .vtext1>p{
+    width: 500px;
+    font-size: 15px;
+    margin-left: 20px ;
+    margin-top: 10px;
+    line-height: 20px;
+   }
+   .vtext4>h3{
+    font-size: 20px;
+   }
+   .vtext4>h1{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+   }
+   .vlast{
+    margin-left: -320px;
+   }
+   .vicon3>p{
+    width: 950px;
+    margin-top: -140px;
+    font-size: 15px;
+    margin-left: -45px;
+   }
+   .vicon3>img{
+    margin-bottom:-25px;
+    margin-left: -60px; 
+    
+    
+   }
+   .vicon1{
+    position: relative;
+    top:-5px
+   }
+   .vicon1>p{
+    font-size: 15px;
+    
+   }
+   .vicon>h2{
+    padding-top:28%;
+   }
+   .vicon1>img{
+    margin-left: 10px;
+    margin-top: -45px;
+   }
+   .vicon2>p{
+    font-size: 15px;
+    margin-left: -30px;
+   }
+    .vicon2>img{
+    margin-left: -40px;
+    text-align: justify;
+   }
+   .vicon3>h2{
+    padding-left: 700px;
+    width: 900px;
+    text-align: center;
+    margin-top: 5%;
+    
+   }
+   .vh2{
+    padding-bottom: 40px;
+   }   
+
+   
+/* footer */
+
+.footer{
+    height: 500px;
+  }
+  .footerbackground{
+    height: 450px;
+  }
+  
+  .about{
+    margin-left: -10px;
+  }
+  .about>p{
+    width: 250px;
+    text-align: justify;
+    margin-left: 10px;
+  
+  }
+  .about>h4{
+    width: 100px;
+    margin-left: 10px;
+  }
+  .projects{
+    margin-top: 50px;
+    margin-left: -200px;
+    width: 400px;
+    
+  }
+  .projects>h4{
+    margin-left:  140px;
+    margin-top: 40px;
+    width: 50px;
+  }
+  .projects>.menu{
+    margin-left: 70px;
+  }
+  .contact>.Cmenu{
+    margin-left: -60px;
+    
+  }
+  .contact>h4{
+    width: 200px;
+    margin-left: -50px;
+  }
+  
+  .copyright>p{
+    width: 500px;
+    margin-right: -400px;
+    
+  }
+  
+  .copyright>.footerlogo{
+    display: flex;
+   margin-right: 100px;
+  }
+  
+  .Cmenu>.addr{
+    width: 200px;
+    margin-top: -10px;
+   }
+    
+  
+  /* footer ends  */
+  
+  
+}
+
+
+/* mobile */
+
+@media screen  and (max-width:426px){
+
+    /* header */
+    
+
+    /* header */
+
+    .vfirst{
+        margin-top:140px ;
+    }
+    .vmiddle>P{
+        padding-left: 20px;
+        width: 250px;
+        font-size: 15px;
+        
+    } 
+    .vmiddle>h1{
+        font-size: 15px; 
+        /* width: 900px; */
+        padding-left: 20px;
+    } 
+    .vmiddle>h4{
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .vcontact{
+        padding-left: 20px;
+    }
+    .vpic>img{
+        margin-left: -560px;
+        width: 125px; 
+        height: 400px;
+        margin-top: -100px;
+        z-index: -1;
+        
+        
+      
+    } 
+
+    
+    .vhey{
+        width: 420px;
+        height:280px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        translate: 4px;
+        background-attachment: fixed;
+        z-index: -1;
+    }
+    .vbo{
+        width: 250px;
+        height: 280px;
+        margin-left: -550px;
+        
+    }
+    .vbo>h1{
+        font-size: smaller;
+        margin-left: 25px;
+        margin-top: -150px;
+    }
+    .vbo>p{
+        width: 200px;
+        font-size: xx-small;
+        color: rgb(255, 255, 255);
+        margin-left: 30px;
+        margin-top: 20px;
+        line-height: 10px;
+        
+
+    }
+    .vlogo>img{
+width: 80px;
+    }
+ 
+#s{
+    display: block;
+    gap:100px;
+    
+}
+#v{
+    margin-top: 5px;
+    margin-left: -4px
+}
+.vborder>h1{
+    width: 250px;
+    font-size: 15px;
+    margin-left: -50px;
+
+}
+.vborder>h3{
+    font-size: 10px;
+    padding-left: -100px;
+    width: 150px;
+}
+.vallimg{
+    margin-left: -25px;
+}
+
+.vtext4{
+    margin-top: -100px;
+}
+
+.vtext4>h3{
+    font-size: 10px;
+   
+    
+    
+}
+.vtext4>h1{
+    font-size: 15px;
+}
+.sam>img{
+    width: 60px;
+    margin-left: 30px;
+}
+.vtext1>p{
+    font-size: 10px;
+    margin-left: 35px;
+    color:white;
+    width: 200px;
+    line-height: 10px;
+}
+.vlast{
+    margin-left: -250px;
+    font-size: 10px;
+}
+.vh2{
+    width: 500px;
+    margin-left: -220px;
+    width: 700px;
+
+}
+.vicon1>img{
+    height: 10px;
+    width: 10px;
+    margin-left: -20px;
+}
+.vicon1>p{
+    width: 250px;
+    margin-left: -20px;
+}
+.vicon1>h2{
+    font-size: 10px;
+    margin-left: -20px;
+    
+}
+.vicon2>img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: -60px;
+    margin-left: -180px;
+}
+.vicon2>p{
+    width: 550px ;
+    margin-top: -100px;
+    margin-left: -120px;
+}
+.vicon2>h2{
+    /* padding-left: -300px; */
+    font-size: 10px;
+    width: 100px;
+    margin-left: 340px;
+    padding-top: -10px;
+}
+.vicon3>img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: -200px;
+    margin-left: -500px;
+}
+.vicon3>p{
+    width: 850px;
+    margin-left: -500px;
+    margin-top: 45px;
+}
+.vicon3>h2{
+    margin-left: -500px;
+    font-size: 10px;
+    width: 800px;
+    /* margin-top: -40px; */
+}
+    
+}
+
+
